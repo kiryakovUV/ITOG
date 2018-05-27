@@ -1,0 +1,341 @@
+
+        @import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC|McLaren|Raleway|Rubik+Mono+One');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font: 300 1.3em/1.3 sans-serif;
+            background-color: rgba(237, 237, 237, 0.03);
+        }
+        .header_video{
+            margin-top:0;
+            width: 120%;            
+        }
+        .header_main{
+            height: 400px;
+            position:relative;
+       }
+        .site-name{
+            position: absolute;
+            top:100px;
+             z-index: 10;
+             padding:10px;
+             background: rgba(255,255,255,0.5);
+             width:100%;
+             text-align: center;
+             box-sizing: border-box;
+        }
+        .video-container{
+            height: 300px;
+            overflow:hidden;
+    
+        }
+        .t2_href {
+            font-family: 'McLaren', cursive;
+            font-size: 5.0rem;
+            text-align: center;
+        }
+
+        .t2_blue {
+            color: rgb(66, 133, 244);
+        }
+
+        .t2_dark_blue {
+            color: rgb(164, 66, 244);
+        }
+
+        .t2_red {
+            color: rgb(234, 67, 53);
+        }
+
+        .t2_yellow {
+            color: yellow;
+        }
+
+        .t2_orange {
+            color: orange;
+        }
+
+        .t2_green {
+            color: rgb(52, 168, 83);
+        }
+
+        .t2_violet {
+            color: violet;
+        }
+
+        h2,h3,p {
+            text-align: center;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: green;
+        }
+
+        .big-picture{
+            position: relative;
+            width: 100%;
+            height: 470px;
+            background: url("../img/9_1.png") 50%/cover;
+        }
+
+        .picture_1{
+            position: relative;
+            width: 100%;
+            height: 370px;
+            background: url("../img/1_1.jpg") 0%/cover;
+        }
+
+        .main-nav {
+            position: fixed;
+            text-align: center;
+            left: -200px;
+            top: 0;
+            transition: 0.5s;
+        }
+
+        @media (min-width: 768px) {
+            .main-nav {
+                position: relative;
+                left: 0;
+                z-index: 20;
+            }
+        }
+        .main-nav__list {
+            margin: 0;
+            padding: 0;
+            background: greenyellow;
+            height:100vh;
+            }
+       
+        @media (min-width: 768px) {
+            .main-nav__list {
+                height: auto;
+            }
+        } 
+        .main-nav__item {
+            display: block;
+        } 
+
+        @media (min-width: 768px) {
+        .main-nav__item {
+                display: inline-block;
+            }
+        }
+        .main-nav__button {
+            color: black;
+            text-decoration: none;
+            display: block;
+            box-sizing: border-box;
+            width: 200px;
+            padding: 30px;
+            transition: .5s;
+            text-align: left
+        }
+
+        @media (min-width: 768px) {        
+            .main-nav__button {
+                text-align: center;
+            }
+        }
+ 
+       
+
+
+
+        .main-nav__button:hover {
+            background: darkturquoise;
+        }
+
+        .main-nav__open-button {
+            position: absolute;
+            right: -48px;
+            top: 0;
+            z-index: 30
+        }
+        img { border-radius: 20px;}
+      
+
+        .main-nav_is-open {
+            left: 0
+        }
+        @media (min-width: 768px) {
+            article {
+                display: inline-block;
+                width: 37%;
+                margin: 30px 6%;
+                vertical-align: top;
+            }
+        }
+        article {
+            margin-top: 40px;
+        }
+      
+        .full-screen {
+            width: 100%
+        }
+
+        .area {
+            margin: auto
+        }
+
+        .content {
+            text-align: center
+        }
+
+        .card {
+            margin: 10px auto;
+            display: inline-block;
+            height:1350px;
+            width: 48%;
+            vertical-align: top;
+            box-sizing: border-box;
+            border: 1px solid rgba(40, 40, 40, 0.5);
+            background-color: rgba(240, 218, 177, 0.17)
+        }
+
+     
+        
+        .card__img {
+            width: 500px;
+            height: 600px;
+            background: gray 50%/cover;
+            display: inline-block;
+        }
+        
+        .card__title{
+            margin: 10px 0;
+            text-align: center;
+        }
+        
+        .card__text{
+            margin: 10px 0;
+            font-size: 1.8rem;
+            text-align: left;
+        }
+        .card__container{
+            text-align: center;
+            width: 100%;
+        }
+        @media (min-width: 768px){
+            .card__container{
+                display: inline-block;
+                width: auto;
+                height: auto;
+               vertical-align: top;
+            }
+        }
+         .img-cactus1 {
+            width:600px;
+            height:500px;
+            background: url('../img/Pereskia aculeata_1.jpg')50%/cover;
+            vertical-align: middle;
+            display: inline-block;
+            margin: 0 89px;
+            border-radius: 20px;
+                }
+        .img-cactus2 {
+            background: url('../img/Opyncieva.jpg')50%/cover;
+            width:600px;
+            height:500px;
+            vertical-align: middle;
+            display: inline-block;
+            margin: 0 89px;
+            border-radius: 20px;
+        }
+        .img-cactus3 {
+            background: url('../img/Maihuen.jpg')50%/cover;
+            width:600px;
+            height:500px;
+            vertical-align: middle;
+            display: inline-block;
+            margin: 0 89px;
+            border-radius: 20px;
+        }
+        .img-cactus4 {
+            background: url('../img/Cactoideae.jpg')50%/cover;
+            width:600px;
+            height:500px;
+            vertical-align: middle;
+            display: inline-block;
+            margin: 0 89px;
+            border-radius: 20px;
+        }
+
+        .container{
+            padding:0 10px;
+            margin: auto;
+        }
+        .back {
+            display: none;
+            position: fixed;
+            right: 20px;
+            bottom: 60px;
+            padding: 20px;
+            border-radius: 10px;
+            background:greenyellow;
+        }
+
+        @media (min-width: 840px) {
+            .container {
+                width: 800px;
+            }
+        
+            .back{
+                display: block;
+                z-index:40;
+            }
+        }
+
+        .foo {
+            display: inline-block;
+            width: 100%;
+            height: 140px;
+            padding: 10px;
+            text-align: left;
+            background: greenyellow;
+
+            position: relative;
+        }
+
+        .foot {
+            display: inline-block;
+            position: absolute;
+            left: 230px;
+            top: 70px;
+        }
+
+        b,
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .info {
+            display: inline-block;
+            position: absolute;
+            width: 650px;
+            height: 130px;
+            background: white;
+            color: red;
+            left: 800px;
+            top: 20px;
+            text-align: center;
+        }
+
+        .foto {
+            background: white url("../img/Ura.jpg") 50%/cover no-repeat;
+            display: inline-block;
+            width: 150px;
+            height: 150px;
+            position: absolute;
+            vertical-align: middle;
+            border: 4px solid white;
+            border-radius: 50%;
+            left: 30px;
+            top: 1px;
+
+        }
+        
