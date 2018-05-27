@@ -1,0 +1,122 @@
+@keyframes box1{
+    0%,100% {           
+       transform: translate(0,0);
+       border-radius:0%;
+    }
+    25% {           
+        transform: translate(200px,0);
+        border-radius:50%;
+    }
+    50% {            
+       transform: translate(200px,200px);
+       border-radius:0%;
+    }
+    75% {            
+        transform: translate(0,200px) ;
+        border-radius:50%;
+     }
+}
+.box1{
+margin:20px;
+ width: 100px;
+ height: 100px;     
+background:white url("../img/Ura.jpg") 50%/cover no-repeat;
+ transition: 1s;
+ animation: box1 10s infinite -1s;
+ display:inline-block;
+ position:absolute;
+}
+
+@keyframes box2{
+    0%,100% {           
+       transform: translate(200px,0);
+       border-radius:50%;
+    }
+    25% {           
+        transform: translate(200px,200px);
+        border-radius:0%;
+    }
+    50% {            
+       transform: translate(0,200px);
+       border-radius:50%;
+    }
+    75% {            
+        transform: translate(0,0) ;
+        border-radius:0%;
+     }
+}
+.box2{
+margin:20px;
+ width: 100px;
+ height: 100px;     
+background:white url("../img/WEB.png") 50%/cover no-repeat;
+transition: 1s;;
+ transition: 1s;
+ animation: box2 10s infinite -1s;
+ display:inline-block;
+ position:absolute;
+}
+@keyframes box3{
+    0%,100% {           
+       transform: translate(200px,200px);
+       border-radius:0%;
+    }
+    25% {           
+        transform: translate(0,200px);
+        border-radius:50%;
+    }
+    50% {            
+       transform: translate(0,0);
+       border-radius:0%;
+    }
+    75% {            
+        transform: translate(200px,0) ;
+        border-radius:50%;
+     }
+}
+.box3{
+margin:20px;
+ width: 100px;
+ height: 100px;    
+background: white url("../img/foto1.png ") 50%/cover no-repeat;
+ transition: 1s;
+ animation: box3 10s infinite -1s;
+ display:inline-block;
+ position:absolute;
+}
+@keyframes box4{
+    0%,100% {           
+       transform: translate(0,200px);
+       border-radius:50%;
+    }
+    25% {           
+        transform: translate(0,0);
+        border-radius:0%;
+    }
+    50% {            
+       transform: translate(200px,0);
+       border-radius:50%;
+    }
+    75% {            
+        transform: translate(200px,200px) ;
+        border-radius:0%;
+     }
+}
+.box4{
+margin:20px;
+ width: 100px;
+ height: 100px;     
+background: orange url("../img/WEB_S.png") 50%/cover no-repeat;
+ transition: 1s;
+ animation: box4 10s infinite -1s;
+ display:inline-block;
+ position:absolute;
+}
+
+.hob1{
+    width: 300px;
+    height: 300px;
+    position:relative;
+    margin:auto;
+    box-sizing: border-box;
+}
